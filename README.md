@@ -1,4 +1,4 @@
-# NAS Terminal Tools
+# macOS SMB NAS Terminal Tools
 
 Function for easier mounting of a smb volume on macOS by terminal.
 
