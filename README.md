@@ -1,6 +1,6 @@
-# macOS SMB NAS Terminal Tools
+# SMB Terminal Tools for macOS
 
-Function for easier mounting of a smb volume on macOS by terminal.
+Function for easier mounting and unmounting of a smb nas volumes on macOS by terminal.
 
 For now, the server url and the username is hardcoded into the script, as I only have one NAS on my home network, but the script can easily be modified.
 
