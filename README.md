@@ -39,6 +39,8 @@ source ~/.config/lf/lfcd.sh
 
 If the server / function is called MyNAS, and the share you want mounted is called MyShare, then you can either type MyServer to choose the share graphically, or type MyNAS MyShare to mount it directly.
 
+If share is already mounted, then it will just navigate to the mounted volume
+
 ### Parameters
 -o - Open in lf   - will open the smb share with lf instead of just cd. Note that I'm using the lfcd script to make lf remember the current directory when exiting to the terminal.
 -u - Unmount      - Unmount instead of mount
