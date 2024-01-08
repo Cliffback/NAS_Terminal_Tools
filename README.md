@@ -8,9 +8,9 @@ For now, the server url and the username is hardcoded into the script, as I only
 ## Installation
 
 Edit the .nasconfig.env with your own server name / address and username, and place it into ~/.config/zsh/
-```
+
 To make the mounting be interchangable with the mounting and unmounting in finder, I had to add "._smb._tcp.local" after my server name / adcress. This will make it finder mount it with the same name, so that mounting and unmounting by terminal also mounts and unmounts the same share in finder.
-```
+
 Put the script in ~/.config/zsh/functions/ and put following command in .zshrc, to load all functions in the folder, or modify it to load only .
 
 ```bash
