@@ -4,6 +4,8 @@ Function for easier mounting of a smb volume on macOS by terminal.
 
 For now, the server url and the username is hardcoded into the script, as I only have one NAS on my home network, but the script can easily be modified.
 
+Password is not needed, as the terminal will ask for the password, and save it in keychain for future attempts.
+
 
 ## Installation
 
