@@ -6,6 +6,15 @@ For now, the server url and the username is hardcoded into the script, as I only
 
 Password is not needed, as the terminal will ask for the password, and save it in keychain for future attempts.
 
+## Requirements
+- whiptail
+```bash
+brew install newt
+```
+- lf (optional)
+```bash
+brew install lf
+```
 
 ## Installation
 
@@ -20,6 +29,8 @@ for file in ~/.config/zsh/functions/*.sh; do
     source "$file"
 done
 ```
+
+To make lf work properly (with lfcd)
 
 ## How to use it
 
