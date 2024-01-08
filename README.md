@@ -30,7 +30,10 @@ for file in ~/.config/zsh/functions/*.sh; do
 done
 ```
 
-To make lf work properly (with lfcd)
+To make lf work properly (with lfcd), move lfcd.sh to ~/.config/lf/lfcd.sh and source it in your .zshrc
+```bash
+source ~/.config/lf/lfcd.sh
+```
 
 ## How to use it
 
